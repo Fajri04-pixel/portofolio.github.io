@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    padding: 20px;
+    padding-bottom: 60px; /* Tambahkan padding bawah untuk memberi ruang bagi footer */
+}
+
+.foto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foto-item {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: rgb(255, 220, 220);
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.foto-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.foto-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.button:hover {
+    background-color: pink;
+    transform: translateY(-1px);
+    border: 1px solid;
+    padding: 8px 20px;
+    box-shadow: 3px 6px white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 20px 0px ;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 1px solid;
+    padding: 8px 20px;
+    box-shadow: 3px 6px pink;
+    font-family: sans-serif;
+    margin: 50px;
+    align-items: center;
+}
