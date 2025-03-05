@@ -14,7 +14,7 @@ header {
 }
 
 article {
-    padding: 20px;
+    padding: 50px;
     padding-bottom: 60px; /* Tambahkan padding bawah untuk memberi ruang bagi footer */
 }
 
@@ -46,6 +46,22 @@ article {
     color: #555;
 }
 
+.button {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 1px solid;
+    padding: 8px 20px;
+    box-shadow: 3px 6px pink;
+    font-family: sans-serif;
+    margin: 50px;
+    align-items: center;
+}
+
 .button:hover {
     background-color: pink;
     transform: translateY(-1px);
@@ -62,20 +78,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-.button {
-    text-align: center;
-    display: inline-block;
-    background-color: white;
-    border: none;
-    border-radius: 20px 0px ;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
-    border: 1px solid;
-    padding: 8px 20px;
-    box-shadow: 3px 6px pink;
-    font-family: sans-serif;
-    margin: 50px;
-    align-items: center;
 }

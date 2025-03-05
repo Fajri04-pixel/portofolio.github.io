@@ -107,9 +107,9 @@ h1 span:before {
 .box-pendidikan, .box-hobi {
     text-align: center;
     color: red;
-    margin-top: 400px;
+    margin-top: 40px;
     background-color: rgb(255, 220, 220);
-    padding: 100px;
+    padding: 250px;
 }
 
 .kiri, .tengah, .kanan {
